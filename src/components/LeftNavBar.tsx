@@ -1,4 +1,5 @@
 import { useState, FC } from "react";
+import { Link } from "react-router-dom";
 
 interface NavItemProps {
     title: string;
@@ -40,9 +41,9 @@ const LeftNavBar: FC = () => {
         <header className="flex flex-col h-screen w-64 bg-black text-white font-kanit">
         <div className="flex flex-col justify-between h-full p-5">
             <div className="pt-8">
-            <a href="/">
+            <Link to="/clothes-store/" >
                 <h1 className="text-xl font-semibold mb-5">CLOTHES-STORE</h1>
-            </a>
+            </Link>
             <nav>
                 <ul>
                     <NavItem title="SHOP" isOpen={shopOpen} onClick={handleClick(setShopOpen)} subItems={["NEW ARRIVALS", "ALL", "TOPS", "BOTTOMS", "OUTWEARS", "ACCESSORIES"]} />
