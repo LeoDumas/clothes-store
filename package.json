@@ -1,5 +1,6 @@
 {
   "name": "clothes-store",
+  "homepage": "https://leodumas.github.io/clothes-store/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
