@@ -15,7 +15,7 @@ const ShopAll = () => {
                         price={item.price}
                         picture={item.picture}
                         isSoldOut={item.isSoldOut}
-                        category={categoryEnum[item.category]}
+                        category={categoryEnum[item.category as keyof typeof categoryEnum]}
                     />
                 ))}
             </div>
