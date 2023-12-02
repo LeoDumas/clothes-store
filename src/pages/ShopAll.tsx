@@ -1,15 +1,26 @@
-import LeftNavBar from "../components/LeftNavBar"
+import LeftNavBar from "../components/LeftNavBar";
+import MyItem from "../components/MyItem";
+import items from '../assets/products.json';
+import { categoryEnum } from "../enums/ClothesType";
 
 const ShopAll = () => {
-  return (
-    <div className="flex">
-        <LeftNavBar />
-        <div className="flex-1 flex flex-col p-4 text-white">
-            <h1 className="text-2xl mb-4">Main Content</h1>
-            <p>Photos, prices ...</p>
+    return (
+        <div className="flex h-full">
+            <LeftNavBar />
+            <div className="flex-1 flex flex-wrap p-4">
+                {items.items.map((item, index) => (
+                    <MyItem
+                        key={index}
+                        title={item.title}
+                        price={item.price}
+                        picture={item.picture}
+                        isSoldOut={item.isSoldOut}
+                        category={categoryEnum[item.category]}
+                    />
+                ))}
+            </div>
         </div>
-    </div>
-  )
+    );
 }
 
-export default ShopAll
+export default ShopAll;

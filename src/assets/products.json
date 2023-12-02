@@ -1,0 +1,54 @@
+{
+    "items": [
+      {
+        "title": "VARSITY JACKET",
+        "price": "€520.00",
+        "picture": "https://images.squarespace-cdn.com/content/v1/569295fc5a566828b96888ca/1679311307853-A36KAV6EADC8BDTRR0FJ/ARNODEFRANCE+-+VARSITY+JACKET+01.jpg",
+        "isSoldOut": true,
+        "category": "TOPS"
+      },
+      {
+        "title": "CARGO VEST",
+        "price": "€450.00",
+        "picture": "https://images.squarespace-cdn.com/content/v1/569295fc5a566828b96888ca/1679326760733-N0BNBJAKYVA7CUX7C67F/ARNODEFRANCE+-+CARGO+VEST+01.jpg",
+        "isSoldOut": false,
+        "category": "TOPS"
+      },
+      {
+        "title": "CARPENTER PANTS V2",
+        "price": "€390.00",
+        "picture": "https://images.squarespace-cdn.com/content/v1/569295fc5a566828b96888ca/1679315832896-FPJQGOP1JJ4CQ3SQQD74/ARNODEFRANCE+-+CARPENTER+PANTS+V2+01.jpg",
+        "isSoldOut": false,
+        "category": "BOTTOMS"
+      },
+      {
+        "title": "DISSTRESSED SHORTS",
+        "price": "€290.00",
+        "picture": "https://images.squarespace-cdn.com/content/v1/569295fc5a566828b96888ca/1688137213604-JPUDZ9Z8QMZZY1CKERTU/ARNODEFRANCE+-+DISTRESSED+SHORTS+01.jpg",
+        "isSoldOut": false,
+        "category": "BOTTOMS"
+      },
+      {
+        "title": "T-SHIRT WASHED BLACK 'NO(ID)'",
+        "price": "€150.00",
+        "picture": "https://images.squarespace-cdn.com/content/v1/569295fc5a566828b96888ca/1679317112472-4EU4UQK419DKY4QW8EHI/ARNODEFRANCE+-+T-SHIRT+VINTAGE+BLACK+NO+ID+01.jpg",
+        "isSoldOut": true,
+        "category": "TOPS"
+      },
+      {
+        "title": "CIGARETTE CASE",
+        "price": "€159.00",
+        "picture": "https://images.squarespace-cdn.com/content/v1/569295fc5a566828b96888ca/1679310584350-AQ6CWAW517JE9VQS12GM/ARNODEFRANCE+-+CIGARETTE+CASE+01.jpg",
+        "isSoldOut": true,
+        "category": "ACCESSORIES"
+      },
+      {
+        "title": "LONG COAT 2 WAY",
+        "price": "€840.00",
+        "picture": "https://images.squarespace-cdn.com/content/v1/569295fc5a566828b96888ca/1679241274084-4KU6J4EB5CY9H25OUDUY/ARNODEFRANCE+-+2+WAY+LONG+COAT+01.jpg",
+        "isSoldOut": false,
+        "category": "BOTTOMS"
+      }
+    ]
+  }
+  
